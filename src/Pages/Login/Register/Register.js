@@ -8,6 +8,12 @@ const Register = () => {
 
     const handleRegister = event => {
         event.preventDefault();
+        //console.log(event.target)
+        const name = event.target.name.value;
+        const email = event.target.email.value;
+        const password = event.target.password.value;
+
+        console.log(name, email, password)
     }
 
     const navigateLogin = () => {
