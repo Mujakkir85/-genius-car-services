@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 const AddService = () => {
     const { register, handleSubmit } = useForm();
 
-    //react form handle event.preventDefault by defoult
+    //react form handle event.preventDefault by defoult created no need to use their
     const onSubmit = data => {
         console.log(data);
         const url = `http://localhost:5000/service`;
